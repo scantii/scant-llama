@@ -14,7 +14,7 @@
 
 import torch
 x = torch.rand(5, 3)
-print(x)
-
 y = torch.cuda.is_available()
-print(f'cuda = {y}')
+z = torch.cuda.is_bf16_supported()
+print(x)
+print(f'cuda = {y} bf16 = {z}')
