@@ -1,5 +1,8 @@
 Torchtune Project
 
+#currently stuck on trition error
+
+
 *MODEL* PROEJECT DIRECTORY
 
 scantii-torch/

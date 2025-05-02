@@ -18,3 +18,7 @@ y = torch.cuda.is_available()
 z = torch.cuda.is_bf16_supported()
 print(x)
 print(f'cuda = {y} bf16 = {z}')
+
+# llama3_2/1B_qlora_single_device
+
+# tune cp llama3_2/1B_lora_single_device custom_lora_config.yaml
