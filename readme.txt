@@ -1,8 +1,5 @@
 Torchtune Project
 
-#currently stuck on trition error
-
-
 *MODEL* PROEJECT DIRECTORY
 
 scantii-torch/
@@ -46,6 +43,10 @@ Huggingface models available:
     all
 
 ---------------------------------
+Notes
 
 custom_config.yaml
     this is the generated config file used for qlora
+
+max_seq_len = null was causing severe slowdown at 288 its during lora
+    set to 512
