@@ -19,6 +19,8 @@
 # tune run lora_finetune_single_device --config dev/configs/custom_lora_config.yaml
 # tune run lora_finetune_single_device --config dev/configs/custom_qlora_config.yaml
 #
+#
+# nvidia-smi dmon -f gpu0.csv --format csv -o T
 
 import torch
 x = torch.rand(5, 3)
