@@ -50,3 +50,9 @@ custom_config.yaml
 
 max_seq_len = null was causing severe slowdown at 288 its during lora
     set to 512
+
+bf16 "not supported by this hardware"
+      File "C:\Users\pscal\miniconda3\envs\scant-llama-cu128\Lib\site-packages\torchtune\training\precision.py", line 118, in get_dtype
+    raise RuntimeError
+        RuntimeError: bf16 precision was requested but not available on this hardware. Please use fp32 precision instead
+    To fix this temporarily and force bf16 support, delete bf16 check from precision.py
