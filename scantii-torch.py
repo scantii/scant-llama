@@ -10,8 +10,8 @@
 ### tune run <recipe> --config <config>
 # 
 #
-# tune cp llama3_2/1B_lora_single_device configs/custom_lora_config.yaml
-# tune cp llama3_2/1B_qlora_single_device configs/custom_qlora_config.yaml
+## tune cp llama3_2/1B_lora_single_device configs/custom_lora_config.yaml
+## tune cp llama3_2/1B_qlora_single_device configs/custom_qlora_config.yaml
 #
 # tune validate dev/configs/custom_lora_config.yaml
 # tune validate dev/configs/custom_qlora_config.yaml
@@ -20,13 +20,13 @@
 # tune run lora_finetune_single_device --config dev/configs/customqloraconfig.yaml
 # 
 # 
-# tune cp eleuther_evaluation tune cp generation
+## tune cp eleuther_evaluation configs/custom_eval_config.yaml
 # tune validate dev/configs/custom_eval_config.yaml
 #
 # tune run eleuther_eval --config dev/configs/custom_eval_config.yaml
 #
 #
-# tune cp generation dev/configs/custom_generation_config.yaml
+## tune cp generation configs/custom_generation_config.yaml
 # 
 # tune run generate --config dev/configs/custom_generation_config.yaml prompt.user="Tell me a joke. "
 #
