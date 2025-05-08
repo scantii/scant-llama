@@ -9,7 +9,7 @@
 #
 ### tune run <recipe> --config <config>
 # 
-#
+# 
 ## tune cp llama3_2/1B_lora_single_device configs/custom_lora_config.yaml
 ## tune cp llama3_2/1B_qlora_single_device configs/custom_qlora_config.yaml
 #
@@ -18,7 +18,7 @@
 #
 # tune run lora_finetune_single_device --config dev/configs/customloraconfig.yaml
 # tune run lora_finetune_single_device --config dev/configs/customqloraconfig.yaml
-# 
+#tune run lora_finetune_single_device --config dev/configs/fin-alpaca_qlora_config.yaml
 # 
 ## tune cp eleuther_evaluation configs/custom_eval_config.yaml
 # tune validate dev/configs/custom_eval_config.yaml
