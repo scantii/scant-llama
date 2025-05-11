@@ -1,5 +1,8 @@
 Torchtune Project
 
+#Current Goal is to create a new eval recipe for fin-alpaca
+
+
 *MODEL* PROEJECT DIRECTORY
 
 scantii-torch/
@@ -49,7 +52,7 @@ custom_config.yaml
     this is the generated config file used for qlora
 
 max_seq_len = null was causing severe slowdown at 288 its during lora
-    set to 512
+    set to 512 temporarily
 
 bf16 "not supported by this hardware"
       File "C:\Users\pscal\miniconda3\envs\scant-llama-cu128\Lib\site-packages\torchtune\training\precision.py", line 118, in get_dtype
